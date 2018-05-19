@@ -40,11 +40,15 @@ class Home extends React.Component {
                             <div style={{marginBottom:"30px"}}>
                                 <Title text="Contact Me"/>
                             </div>
-                            <div style={{fontSize:"1.3em", margin:"6px 0"}}>
-                                <Glyphicon glyph="envelope" /> daryan.sankar1@gmail.com 
+                            <div style={{fontSize:"1.3em", margin:"30px 0"}}> 
+                                <a style={{color:"lightgray"}} href="mailto:daryan.sankar1@gmail.com">
+                                    <Glyphicon glyph="envelope" /> daryan.sankar1@gmail.com
+                                </a>
                             </div>
-                            <div style={{fontSize:"1.3em", margin:"6px 0"}}>
-                                <span className="fa fa-github fa-lg" /> dsankar1
+                            <div style={{fontSize:"1.3em", margin:"10px 0"}}>
+                                <a style={{color:"lightgray"}} href="https://github.com/dsankar1">
+                                    <span className="fa fa-github fa-lg" /> github.com/dsankar1
+                                </a>
                             </div>
                         </div>
                     </Col>

@@ -10,3 +10,14 @@ table tbody tr td {
     padding: 2px 0;
     font-weight: 600;
 }
+
+.weapon-type-module:hover {
+    background: #66A66F;
+}
+  
+@media (max-width: 992px) {
+    .smooth-scroll {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+}

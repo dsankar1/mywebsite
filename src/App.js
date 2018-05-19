@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import ProjectList from "./components/ProjectList";
 import NotFound from "./components/NotFound";
+import MhwCalculator from "./demos/mhwcalculator/App";
 
 class App extends Component {
     render() {
@@ -15,6 +16,7 @@ class App extends Component {
                         <Switch>
                             <Route exact path="/" component={Home}/>
                             <Route exact path="/projects" component={ProjectList}/>
+                            <Route path="/projects/mhwcalculator/demo" component={MhwCalculator}/>
                             <Route component={NotFound}/>
                         </Switch>
                     </div>

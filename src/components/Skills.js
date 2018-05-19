@@ -39,7 +39,7 @@ const Skills = props => (
                     <td>MVC</td>
                 </tr>
                 <tr>
-                    <td>Http</td>
+                    <td>HTTP</td>
                     <td>TLS</td>
                 </tr>
                 <tr>
@@ -56,7 +56,7 @@ const Skills = props => (
                 </tr>
                 <tr>
                     <td>JWT</td>
-                    <td>Hibernate ORM</td>
+                    <td>OAuth</td>
                 </tr>
                 <tr>
                     <td>Typescript</td>
