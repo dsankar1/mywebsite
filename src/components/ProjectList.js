@@ -1,10 +1,11 @@
 import React from "react";
+import Title from "./Title";
 
 class ProjectList extends React.Component {
     render() {
         return (
-            <div>
-                Projects
+            <div style={{paddingTop:"12px"}}>
+                <Title text="Projects" large/>
             </div>
         );
     }
