@@ -21,3 +21,16 @@ table tbody tr td {
         -webkit-overflow-scrolling: touch;
     }
 }
+
+.project-list-item {
+    cursor: pointer;
+    background: #222;
+    padding: 10px;
+    margin: 4px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-list-item:hover {
+    background: #111;
+}

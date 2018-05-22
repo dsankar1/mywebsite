@@ -2,9 +2,9 @@ import React from "react";
 import Title from "./Title";
 
 const Skills = props => (
-    <div style={{margin:"12px 0"}}>
+    <div style={{}}>
         <Title text="Skills"/>
-        <table style={{width:"100%", textAlign:"center", margin:"6px 0"}}>
+        <table style={{width:"100%", textAlign:"center"}}>
             <tbody>
                 <tr>
                     <td>Java</td>
