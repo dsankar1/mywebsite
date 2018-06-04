@@ -8,18 +8,29 @@ import NotFound from "./components/NotFound";
 import MhwCalculator from "./demos/mhwcalculator/App";
 
 class App extends Component {
+    componentWillUpdate() {
+        window.scrollTo(0, 0);
+    }
     render() {
+        var demos = [
+            {
+                name: "Min-Max Connect Four",
+                url: "/projects/connect4/demo"
+            },
+            {
+                name: "Monster Hunter World: Calculator",
+                url: "/projects/mhwcalculator/demo"
+            }
+        ]
         return (
-            <Navbar>
+            <Navbar demos={demos}>
                 <Grid>
-                    <div style={{marginTop:"51px"}}>
-                        <Switch>
-                            <Route exact path="/" component={Home}/>
-                            <Route exact path="/projects" component={ProjectList}/>
-                            <Route path="/projects/mhwcalculator/demo" component={MhwCalculator}/>
-                            <Route component={NotFound}/>
-                        </Switch>
-                    </div>
+                    <Switch>
+                        <Route exact path="/" component={Home}/>
+                        <Route exact path="/projects" component={ProjectList}/>
+                        <Route path="/projects/mhwcalculator/demo" component={MhwCalculator}/>
+                        <Route component={NotFound}/>
+                    </Switch>
                 </Grid>
             </Navbar>
         );

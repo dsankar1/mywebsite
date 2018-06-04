@@ -7,10 +7,10 @@ import logo from "../res/Logo.png";
 class ProjectList extends React.Component {
     render() {
         return (
-            <div style={{paddingTop:"12px"}}>
-                <Title text="Projects" large/>
-                <Row style={{margin:"12px 0"}}>
-                    <Col xs={12} md={8} mdOffset={2}>
+            <div>
+                <Row>
+                    <Col md={10} mdOffset={1} lg={8} lgOffset={2}>
+                        <Title text="Projects" large/>
                         <FormGroup controlId="formBasicText">
                             <ControlLabel>Search Project Title</ControlLabel>
                             <FormControl
@@ -19,10 +19,6 @@ class ProjectList extends React.Component {
                             />
                             <FormControl.Feedback />
                         </FormGroup>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col xs={12} md={8} mdOffset={2} style={{marginBottom:"12px"}}>
                         <div style={{color:"gray"}}>Showing 0 of 0 results</div>
                         <hr style={{marginTop:"0px", borderColor:"gray"}}/>
                         <ListItem image={logo} title="Example Project" summary="This is just an example project."/>

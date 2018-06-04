@@ -5,7 +5,7 @@ import gridworldImg from "../res/carousel/Gridworld.PNG";
 import pacmanImg from "../res/carousel/PacMan.PNG";
 
 const Slideshow = props => (
-    <div style={{margin:"12px 0"}}>
+    <div>
         <Carousel>
             <Carousel.Item>
                 <img width={900} height={500} alt="connect 4" src={connectImg} />
